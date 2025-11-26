@@ -2,24 +2,24 @@
 The code for image analysis in the CHARM manuscript.
 
 1. Nucleic acid dye penetration
-- 1. import.ipynb: import image from LIF file and store the metadata
+- import.ipynb: import image from LIF file and store the metadata
 - analyze_penetration_2.m: create image mask, analyse dye intensity decay, penetration distance
 - analyze_homogeneity.m: create image mask, analyse dye intensity variation
 - wrapped_2: call analyze_penetration_2, plot graph
 - wrapped_homogeneity: call analyze_homogeneity, plot graph
 
 2. Colour conversion
-- 1. import.ipynb: import image from LIF file and store the metadata
+- import.ipynb: import image from LIF file and store the metadata
 - matlab_crosstalk_2.mlx: convert fluorescent colour to bright-field H&E colour
 - rgb_to_matlab.ipynb: format conversion
 - matlab_colour_transfer_4.mlx: perform MKL colour transfer
 - matlab_resize_5.mlx: resize the image
 
 3. Liver histology analysis
-- 3. 3d_training.ipynb: cellpose 2 3D training
-- 7. nucleus_training_and_tune_parameters: cellpose 3 3D nucleus training
-- 9. pipeline_python: perform cell and nucleus segmentation and mask post-processing
-- 10. python_matlab: format conversion
+- 3d_training.ipynb: cellpose 2 3D training
+- nucleus_training_and_tune_parameters: cellpose 3 3D nucleus training
+- pipeline_python: perform cell and nucleus segmentation and mask post-processing
+- python_matlab: format conversion
 - matlab_modefilt_11: perform modefilt
 - matlab_region_12: analyse number of nuclei in each cell, total nuclear intensity, morphological parameters
 - matlab_vessel_13: segment vessel
